@@ -18,7 +18,7 @@ export class GamesListComponent implements OnInit {
       The Server uses C# (supporting Mono and .Net) with Nancy webserver with an Sqlite database.`,
       image: 'word-link.png',
       chips: ['C#', 'JavaScript', 'EmberJS', 'Sass', 'Nancy', 'Ajax'],
-      link: 'https://irt.io/',
+      link: 'https://wordlink.irt.io/',
       linkTitle: 'Play it online',
       link2: '', link2Title: ''
     },
