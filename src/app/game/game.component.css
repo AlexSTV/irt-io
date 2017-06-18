@@ -1,11 +1,17 @@
 .game-card {
-
+  margin: 20px !important;
   float: left;
 }
 
-@media only screen and (max-width: 970px) {
+@media only screen and (max-width: 600px) {
   md-card {
-    width: calc(100% - 88px);
+    width: calc(100% - 68px) !important;
+  }
+}
+
+@media only screen and (max-width: 970px; min-width: 600px;) {
+  md-card {
+    width: calc(100% - 88px) !important;
   }
 }
 
