@@ -40,14 +40,13 @@ export class GamesListComponent implements OnInit {
       link2: '', link2Title: ''
     },
     {
-      name: 'Slope Simulator',
-      subtitle: 'Simple android game',
-      description: `Slope simulator is a simple proof of concept where the player
-      draws the ski slope as a character and gets points by getting the character to do flips.`,
-      image: 'slope-sim.png',
+      name: 'Grapple',
+      subtitle: 'Android physics game',
+      description: 'A physics mobile game build in Unity (C#) where the player swings a hamster around hundreds of levels.',
+      image: 'grapple.gif',
       chips: ['C#', 'Unity', 'Android'],
-      link: 'https://play.google.com/store/apps/details?id=com.alexstv.skislope&hl=en',
-      linkTitle: 'Google Play',
+      link: 'http://grapple.nfshost.com/',
+      linkTitle: 'Landing page',
       link2: '', link2Title: ''
     },
     {
@@ -66,13 +65,14 @@ export class GamesListComponent implements OnInit {
       link2Title: `Tutorial`
     },
     {
-      name: 'Grapple',
-      subtitle: 'Android physics game',
-      description: 'A physics mobile game build in Unity (C#) where the player swings a hamster around hundreds of levels.',
-      image: 'grapple.gif',
+      name: 'Slope Simulator',
+      subtitle: 'Simple android game',
+      description: `Slope simulator is a simple proof of concept where the player
+      draws the ski slope as a character and gets points by getting the character to do flips.`,
+      image: 'slope-sim.png',
       chips: ['C#', 'Unity', 'Android'],
-      link: 'http://grapple.nfshost.com/',
-      linkTitle: 'Landing page',
+      link: 'https://play.google.com/store/apps/details?id=com.alexstv.skislope&hl=en',
+      linkTitle: 'Google Play',
       link2: '', link2Title: ''
     },
     {
