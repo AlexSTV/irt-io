@@ -1,0 +1,16 @@
+/* You can add global styles to this file, and also import other style files */
+@import '~@angular/material/prebuilt-themes/indigo-pink.css';
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+md-chip {
+  margin-right: 5px;
+  margin-bottom: 5px;
+}
+
+md-card {
+  margin: 20px !important;
+}

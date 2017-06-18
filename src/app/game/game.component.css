@@ -1,0 +1,33 @@
+.game-card {
+
+  float: left;
+}
+
+@media only screen and (max-width: 970px) {
+  md-card {
+    width: calc(100% - 88px);
+  }
+}
+
+@media only screen and (min-width: 970px) {
+  md-card {
+    width: 400px;
+    margin: 40px;
+  }
+}
+
+.alex-icon {
+  background-image: url('../../assets/images/alex.jpg');
+  background-size: cover;
+}
+
+.title {
+  font-size: 24px !important;
+  font-weight: 300;
+}
+
+.description {
+  color: rgba(0,0,0,.54);
+  font-size: 16px;
+  line-height: 20px;
+}

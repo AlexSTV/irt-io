@@ -1,0 +1,25 @@
+<md-card class="game-card">
+
+  <img md-card-image src="../../assets/images/{{game.image}}">
+
+  <md-card-header>
+    <!-- <div md-card-avatar class="alex-icon"></div> -->
+    <md-card-title class="title">{{game.name}}</md-card-title>
+    <md-card-subtitle>{{game.subtitle}}</md-card-subtitle>
+  </md-card-header>
+
+  <md-card-content>
+    <md-chip-list>
+      <div *ngFor="let chip of game.chips">
+        <md-chip>{{chip}}</md-chip>
+      </div>
+    </md-chip-list>
+    <p class="description">{{game.description}}</p>
+
+  </md-card-content>
+  <md-card-actions align="end">
+    <div *ngIf="game.link2 != ''; then thenBlock"></div>
+    <ng-template #thenBlock><a md-raised-button color="accent" href={{game.link2}}>{{game.link2Title}}</a></ng-template>
+    <a md-raised-button color="primary" href={{game.link}}>{{game.linkTitle}}</a>
+  </md-card-actions>
+</md-card>
