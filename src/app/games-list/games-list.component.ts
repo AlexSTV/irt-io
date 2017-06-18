@@ -31,7 +31,7 @@ export class GamesListComponent implements OnInit {
       cow is in heat to detect the best time for artificial insemination.
       With it being a small team I contributed to every aspect of the software stack from the PC
       installed on the farm to the cloud server and web UI.
-      My main responsibility was the c# tools and services running on the locally installed PC which
+      My main responsibility was the C# tools and services running on the locally installed PC which
       process data from the collar into values of rumination, eating and whether the cow is in heat.`,
       image: 'cows.jpg',
       chips: ['C#', 'Postgresql', 'JavaScript', 'Ruby', 'Ember', 'Sinatra', 'Algorithms', ],
