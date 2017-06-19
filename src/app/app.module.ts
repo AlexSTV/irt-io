@@ -11,8 +11,18 @@ import { GamesListComponent } from './games-list/games-list.component';
 
 import 'hammerjs';
 
-import { MdTabsModule, MdButtonModule, MdCheckboxModule, MdCardModule, MdChipsModule} from '@angular/material';
+import {
+  MdTabsModule,
+  MdButtonModule,
+  MdCheckboxModule,
+  MdCardModule,
+  MdChipsModule,
+  MdListModule,
+  MdIconModule
+} from '@angular/material';
+
 import { CvComponent } from './cv/cv.component';
+import { ContactComponent } from './contact/contact.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +32,8 @@ import { CvComponent } from './cv/cv.component';
     FooterComponent,
     ContentComponent,
     GamesListComponent,
-    CvComponent
+    CvComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,
@@ -33,7 +44,9 @@ import { CvComponent } from './cv/cv.component';
     MdCheckboxModule,
     MdCardModule,
     MdTabsModule,
-    MdChipsModule
+    MdChipsModule,
+    MdListModule,
+    MdIconModule
   ],
   providers: [],
   bootstrap: [AppComponent]
