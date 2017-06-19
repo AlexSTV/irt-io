@@ -1,11 +1,17 @@
 md-card {
   float: left;
   width: 420px;
-  margin: 10px;
+  margin: 20px !important;
 }
 
 md-card.full {
-  width: calc(100% - 68px);
+  width: calc(100% - 88px);
+}
+
+@media only screen and (max-width: 600px) {
+  md-card {
+    width: calc(100% - 68px) !important;
+  }
 }
 
 md-card-title {
@@ -35,6 +41,15 @@ a {
   right: -24px;
   border-bottom: 1px solid rgba(0,0,0,0.2);
 }
+
+@media only screen and (max-width: 600px) {
+  .line {
+    width: calc(100% + 32px);
+    left: -16px;
+    right: -16px;
+  }
+}
+
 
 .mat-list-icon {
   color: rgba(0, 0, 0, 0.54);
